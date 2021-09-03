@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Developer Days Task 1 - Calculator</title>
+        <link rel="icon" href="./favicon.ico" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row text-center mt-5">
+                <div class="d-flex justify-content-center w-100">
+                    <div class="col-lg-6 col-md-6 col-sm-12 calculator-container py-3">
+                        <div class="w-100 display-container">
+                            <div class="w-100 display-equation-container" id="displayEquation"></div>
+                            <div class="w-100 display-input-container h2" id="displayInput">0</div>
+                        </div>
+                        <div class="mt-4 w-100 keys-container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <button class="keys special-keys" title="Reset">R</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys" title="Clear">C</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys" title="Back space">←</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys">+</button>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <button class="keys">7</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">8</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">9</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys">-</button>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <button class="keys">4</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">5</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">6</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys">*</button>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <button class="keys">1</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">2</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">3</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys special-keys">/</button>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <button class="keys">.</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="keys">0</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="keys special-keys">=</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 py-5">
+                    <p class="h6">Made with <span class="text-danger">&hearts;</span> during Developer days</p>
+                    <i class="fab fa-instagram" onmouseover="this.style.color='#e1306c'" onmouseout="this.style.color='#fff'" onclick="window.open('https://www.instagram.com/mohitagarwal1432','_blank')">&nbsp;&nbsp;</i>
+                    <i onmouseover="this.style.color='#3b5998'" onmouseout="this.style.color='#fff'" class="fab fa-linkedin-in" onclick="window.open('https://www.linkedin.com/in/mohitagarwal1432/','_blank')">&nbsp;&nbsp;</i>
+                    <i onmouseover="this.style.color='red'" onmouseout="this.style.color='#fff'" class="fab fa-youtube" onclick="window.open('https://bit.ly/2GS1710','_blank')"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./js/main.js"></script>
+</html>
